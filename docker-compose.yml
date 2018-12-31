@@ -1,0 +1,7 @@
+version: '3'
+services:
+  node:
+    build:
+      dockerfile: Dockerfile
+      context: .
+    image: node:10.15.0-alpine
